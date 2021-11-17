@@ -1,0 +1,5 @@
+<map id="Dialogue.GetRandom" name="Dialogue.GetRandom">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,151,57"/>
+<area shape="rect" id="node2" href="$class_script.html#a9e0287a27b8e1f22a837ae422906cbef" title=" " alt="" coords="201,5,355,32"/>
+<area shape="rect" id="node3" href="$class_dialogue.html#afef8d4afc2a211e77f21471041884a11" title=" " alt="" coords="199,56,357,83"/>
+</map>

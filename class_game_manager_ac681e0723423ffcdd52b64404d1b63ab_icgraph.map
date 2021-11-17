@@ -1,0 +1,5 @@
+<map id="GameManager.CreateQuest" name="GameManager.CreateQuest">
+<area shape="rect" id="node1" title="Will take the index of what quest will be added Then will be passed to the quest manager." alt="" coords="345,5,529,32"/>
+<area shape="rect" id="node2" href="$class_dialogue.html#a1cbd37eb32ebf5aeffeb7b5bd480e88c" title=" " alt="" coords="171,5,297,32"/>
+<area shape="rect" id="node3" href="$class_dialogue.html#a6b7a5144cbfe9e77136944b7f0677a05" title=" " alt="" coords="5,5,123,32"/>
+</map>

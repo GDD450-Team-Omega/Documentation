@@ -1,0 +1,4 @@
+<map id="QuestManager.CompleteTask" name="QuestManager.CompleteTask">
+<area shape="rect" id="node1" title="Checks each quests in the Quest Journal to see if it is completed. It will determine what type of que..." alt="" coords="248,5,443,32"/>
+<area shape="rect" id="node2" href="$class_game_manager.html#afa897a422de407c89cf9b04abed6d91e" title="Will take the type of goal that is completed and pass it to the quest manager.This will increment 1 o..." alt="" coords="5,5,200,32"/>
+</map>

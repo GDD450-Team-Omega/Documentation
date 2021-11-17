@@ -1,0 +1,4 @@
+<map id="GameManager.ChangeScene" name="GameManager.ChangeScene">
+<area shape="rect" id="node1" title="Can be passed either an int or the enum equivalent of the scene that is to be loaded" alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$class_scene_controller.html#a3c3965e3b086459d0e51200d59f11288" title="Takes a Scene by name then loads it according the int value of the Scene num" alt="" coords="245,5,444,32"/>
+</map>
