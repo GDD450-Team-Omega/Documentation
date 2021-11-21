@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Grave Robber At Large: GameManager Class Reference</title>
+<title>Grave Robbers At Large: GameManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,9 +25,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Grave Robber At Large<span id="projectnumber">&#160;0.0</span>
+   <div id="projectname">Grave Robbers At Large<span id="projectnumber">&#160;0.1</span>
    </div>
-   <div id="projectbrief">A game where you run around robbing graves</div>
+   <div id="projectbrief">Steal bodies, make money</div>
   </td>
  </tr>
  </tbody>
@@ -93,18 +93,22 @@ $(document).ready(function(){initNavTree('class_game_manager.html',''); initResi
 
 <p>The manager that will act as a brain. Will call functions and other scripts for highest level logic. Will also hold global variables  
  <a href="class_game_manager.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for GameManager:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for GameManager:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_game_manager__inherit__graph.png" border="0" usemap="#a_game_manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_game_manager_inherit__map" id="a_game_manager_inherit__map">
 <area shape="rect" title="The manager that will act as a brain. Will call functions and other scripts for highest level logic...." alt="" coords="7,80,114,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,116,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for GameManager:</div>
-<div class="dyncontent">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for GameManager:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_game_manager__coll__graph.png" border="0" usemap="#a_game_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="a_game_manager_coll__map" id="a_game_manager_coll__map">
 <area shape="rect" title="The manager that will act as a brain. Will call functions and other scripts for highest level logic...." alt="" coords="7,80,114,107"/>
@@ -129,8 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ea2be1930ae21ee3e3286ab1f525052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a6ea2be1930ae21ee3e3286ab1f525052">ChangeScene</a> (Scene _Scene)</td></tr>
 <tr class="memdesc:a6ea2be1930ae21ee3e3286ab1f525052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be passed either an int or the enum equivalent of the scene that is to be loaded  <a href="class_game_manager.html#a6ea2be1930ae21ee3e3286ab1f525052">More...</a><br /></td></tr>
 <tr class="separator:a6ea2be1930ae21ee3e3286ab1f525052"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cec87903cc4b66f1fdee1967e86ba51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#a8cec87903cc4b66f1fdee1967e86ba51">ExitGame</a> ()</td></tr>
-<tr class="memdesc:a8cec87903cc4b66f1fdee1967e86ba51"><td class="mdescLeft">&#160;</td><td class="mdescRight">When called the game will exit.  <a href="class_game_manager.html#a8cec87903cc4b66f1fdee1967e86ba51">More...</a><br /></td></tr>
+<tr class="memitem:a8cec87903cc4b66f1fdee1967e86ba51"><td class="memItemLeft" align="right" valign="top"><a id="a8cec87903cc4b66f1fdee1967e86ba51" name="a8cec87903cc4b66f1fdee1967e86ba51"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ExitGame</b> ()</td></tr>
+<tr class="memdesc:a8cec87903cc4b66f1fdee1967e86ba51"><td class="mdescLeft">&#160;</td><td class="mdescRight">When called the game will exit. <br /></td></tr>
 <tr class="separator:a8cec87903cc4b66f1fdee1967e86ba51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa897a422de407c89cf9b04abed6d91e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#afa897a422de407c89cf9b04abed6d91e">CompleteTask</a> (GoalType _Type)</td></tr>
 <tr class="memdesc:afa897a422de407c89cf9b04abed6d91e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will take the type of goal that is completed and pass it to the quest manager.This will increment 1 on every quest that has this quest type.  <a href="class_game_manager.html#afa897a422de407c89cf9b04abed6d91e">More...</a><br /></td></tr>
@@ -147,20 +152,22 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ad3e717f4fb0f378b969f4457de81f23e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_game_manager.html">GameManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_manager.html#ad3e717f4fb0f378b969f4457de81f23e">Instance</a><code> [get]</code></td></tr>
+<tr class="memitem:ad3e717f4fb0f378b969f4457de81f23e"><td class="memItemLeft" align="right" valign="top"><a id="ad3e717f4fb0f378b969f4457de81f23e" name="ad3e717f4fb0f378b969f4457de81f23e"></a>
+static <a class="el" href="class_game_manager.html">GameManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b><code> [get]</code></td></tr>
 <tr class="separator:ad3e717f4fb0f378b969f4457de81f23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The manager that will act as a brain. Will call functions and other scripts for highest level logic. Will also hold global variables </p>
 <p >Creation of <a class="el" href="class_game_manager.html" title="The manager that will act as a brain. Will call functions and other scripts for highest level logic....">GameManager</a> Singleton Referenced from: <a href="https://forum.unity.com/threads/question-about-creating-game-manager-using-singleton-design-concept.1045828/">https://forum.unity.com/threads/question-about-creating-game-manager-using-singleton-design-concept.1045828/</a> </p>
-
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00019">19</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aba8967781cc5100e8dcbd6affeb89dfe" name="aba8967781cc5100e8dcbd6affeb89dfe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba8967781cc5100e8dcbd6affeb89dfe">&#9670;&nbsp;</a></span>ChangeScene() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameManager.ChangeScene </td>
@@ -170,6 +177,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Can be passed either an int or the enum equivalent of the scene that is to be loaded </p>
@@ -180,17 +192,6 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00124">124</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_aba8967781cc5100e8dcbd6affeb89dfe_cgraph.png" border="0" usemap="#aclass_game_manager_aba8967781cc5100e8dcbd6affeb89dfe_cgraph" alt=""/></div>
-<map name="aclass_game_manager_aba8967781cc5100e8dcbd6affeb89dfe_cgraph" id="aclass_game_manager_aba8967781cc5100e8dcbd6affeb89dfe_cgraph">
-<area shape="rect" title="Can be passed either an int or the enum equivalent of the scene that is to be loaded" alt="" coords="5,5,197,32"/>
-<area shape="rect" href="class_scene_controller.html#a3c3965e3b086459d0e51200d59f11288" title="Takes a Scene by name then loads it according the int value of the Scene num" alt="" coords="245,5,444,32"/>
-</map>
-</div>
-
 </div>
 </div>
 <a id="a6ea2be1930ae21ee3e3286ab1f525052" name="a6ea2be1930ae21ee3e3286ab1f525052"></a>
@@ -198,6 +199,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameManager.ChangeScene </td>
@@ -207,6 +211,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Can be passed either an int or the enum equivalent of the scene that is to be loaded </p>
@@ -217,17 +226,6 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00132">132</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_a6ea2be1930ae21ee3e3286ab1f525052_cgraph.png" border="0" usemap="#aclass_game_manager_a6ea2be1930ae21ee3e3286ab1f525052_cgraph" alt=""/></div>
-<map name="aclass_game_manager_a6ea2be1930ae21ee3e3286ab1f525052_cgraph" id="aclass_game_manager_a6ea2be1930ae21ee3e3286ab1f525052_cgraph">
-<area shape="rect" title="Can be passed either an int or the enum equivalent of the scene that is to be loaded" alt="" coords="5,5,197,32"/>
-<area shape="rect" href="class_scene_controller.html#a3c3965e3b086459d0e51200d59f11288" title="Takes a Scene by name then loads it according the int value of the Scene num" alt="" coords="245,5,444,32"/>
-</map>
-</div>
-
 </div>
 </div>
 <a id="afa897a422de407c89cf9b04abed6d91e" name="afa897a422de407c89cf9b04abed6d91e"></a>
@@ -235,6 +233,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameManager.CompleteTask </td>
@@ -244,6 +245,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Will take the type of goal that is completed and pass it to the quest manager.This will increment 1 on every quest that has this quest type. </p>
@@ -255,18 +261,6 @@ Here is the call graph for this function:</div>
 </dl>
 <p >Call -&gt; <code>GameManager.Instance.CompleteTask(GoalType.DigGrave);</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00159">159</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_afa897a422de407c89cf9b04abed6d91e_cgraph.png" border="0" usemap="#aclass_game_manager_afa897a422de407c89cf9b04abed6d91e_cgraph" alt=""/></div>
-<map name="aclass_game_manager_afa897a422de407c89cf9b04abed6d91e_cgraph" id="aclass_game_manager_afa897a422de407c89cf9b04abed6d91e_cgraph">
-<area shape="rect" title="Will take the type of goal that is completed and pass it to the quest manager.This will increment 1 o..." alt="" coords="5,5,200,32"/>
-<area shape="rect" href="class_quest_manager.html#a095c28a03de0249a1c04bf9517994f7b" title="Checks each quests in the Quest Journal to see if it is completed. It will determine what type of que..." alt="" coords="248,5,443,32"/>
-<area shape="rect" href="class_game_manager.html#abb1c222eefb6e7582983de8a59056098" title="Takes the new amount of money and applies it to the total Can be used for both getting and spending m..." alt="" coords="491,5,681,32"/>
-</map>
-</div>
-
 </div>
 </div>
 <a id="ac681e0723423ffcdd52b64404d1b63ab" name="ac681e0723423ffcdd52b64404d1b63ab"></a>
@@ -274,6 +268,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameManager.CreateQuest </td>
@@ -283,6 +280,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Will take the index of what quest will be added Then will be passed to the quest manager. </p>
@@ -293,27 +295,6 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00180">180</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_ac681e0723423ffcdd52b64404d1b63ab_cgraph.png" border="0" usemap="#aclass_game_manager_ac681e0723423ffcdd52b64404d1b63ab_cgraph" alt=""/></div>
-<map name="aclass_game_manager_ac681e0723423ffcdd52b64404d1b63ab_cgraph" id="aclass_game_manager_ac681e0723423ffcdd52b64404d1b63ab_cgraph">
-<area shape="rect" title="Will take the index of what quest will be added Then will be passed to the quest manager." alt="" coords="5,5,189,32"/>
-<area shape="rect" href="class_quest_manager.html#af4e99b4e2c7226a295904bd752701990" title="Takes information from a ScriptableObject Quests, updates the text in a NPC&#39;s quest window and then d..." alt="" coords="237,5,408,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_ac681e0723423ffcdd52b64404d1b63ab_icgraph.png" border="0" usemap="#aclass_game_manager_ac681e0723423ffcdd52b64404d1b63ab_icgraph" alt=""/></div>
-<map name="aclass_game_manager_ac681e0723423ffcdd52b64404d1b63ab_icgraph" id="aclass_game_manager_ac681e0723423ffcdd52b64404d1b63ab_icgraph">
-<area shape="rect" title="Will take the index of what quest will be added Then will be passed to the quest manager." alt="" coords="345,5,529,32"/>
-<area shape="rect" href="class_dialogue.html#a1cbd37eb32ebf5aeffeb7b5bd480e88c" title=" " alt="" coords="171,5,297,32"/>
-<area shape="rect" href="class_dialogue.html#a6b7a5144cbfe9e77136944b7f0677a05" title=" " alt="" coords="5,5,123,32"/>
-</map>
-</div>
-
 </div>
 </div>
 <a id="aae47f2a376980fca502051f9c63407eb" name="aae47f2a376980fca502051f9c63407eb"></a>
@@ -321,6 +302,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameManager.CreateQuest </td>
@@ -330,6 +314,11 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Will take the index of what quest will be added Then will be passed to the quest manager. </p>
@@ -340,38 +329,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00189">189</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_aae47f2a376980fca502051f9c63407eb_cgraph.png" border="0" usemap="#aclass_game_manager_aae47f2a376980fca502051f9c63407eb_cgraph" alt=""/></div>
-<map name="aclass_game_manager_aae47f2a376980fca502051f9c63407eb_cgraph" id="aclass_game_manager_aae47f2a376980fca502051f9c63407eb_cgraph">
-<area shape="rect" title="Will take the index of what quest will be added Then will be passed to the quest manager." alt="" coords="5,5,189,32"/>
-<area shape="rect" href="class_quest_manager.html#af4e99b4e2c7226a295904bd752701990" title="Takes information from a ScriptableObject Quests, updates the text in a NPC&#39;s quest window and then d..." alt="" coords="237,5,408,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a8cec87903cc4b66f1fdee1967e86ba51" name="a8cec87903cc4b66f1fdee1967e86ba51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cec87903cc4b66f1fdee1967e86ba51">&#9670;&nbsp;</a></span>ExitGame()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameManager.ExitGame </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>When called the game will exit. </p>
-
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00144">144</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-
 </div>
 </div>
 <a id="ab5da814aae54d4bceb91cac7f7290b4b" name="ab5da814aae54d4bceb91cac7f7290b4b"></a>
@@ -379,6 +336,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int GameManager.GetMoney </td>
@@ -387,12 +347,15 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Will return the current money/currency that the player has. </p>
 <dl class="section return"><dt>Returns</dt><dd>Value of how much money the player has</dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00081">81</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
 
 </div>
 </div>
@@ -401,6 +364,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool GameManager.IsHidden </td>
@@ -409,13 +375,16 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>When Called it will return the players current hidden state </p>
 <dl class="section return"><dt>Returns</dt><dd>The value of the player's hidden state</dd></dl>
 <p >Call -&gt; <code>GameManager.Instance.IsHidden();</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00111">111</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
 
 </div>
 </div>
@@ -424,6 +393,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameManager.ToggleHidden </td>
@@ -432,12 +404,15 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>When Called it will toggle the players hidden state </p>
 <p >Call -&gt; <code>GameManager.Instance.ToggleHidden();</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00170">170</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
 
 </div>
 </div>
@@ -446,6 +421,9 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool GameManager.UpdateMoney </td>
@@ -455,6 +433,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Takes the new amount of money and applies it to the total Can be used for both getting and spending money </p>
@@ -466,47 +449,10 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>State of success for applying the new money amount</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00091">91</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_game_manager_abb1c222eefb6e7582983de8a59056098_icgraph.png" border="0" usemap="#aclass_game_manager_abb1c222eefb6e7582983de8a59056098_icgraph" alt=""/></div>
-<map name="aclass_game_manager_abb1c222eefb6e7582983de8a59056098_icgraph" id="aclass_game_manager_abb1c222eefb6e7582983de8a59056098_icgraph">
-<area shape="rect" title="Takes the new amount of money and applies it to the total Can be used for both getting and spending m..." alt="" coords="491,5,681,32"/>
-<area shape="rect" href="class_quest_manager.html#a095c28a03de0249a1c04bf9517994f7b" title="Checks each quests in the Quest Journal to see if it is completed. It will determine what type of que..." alt="" coords="248,5,443,32"/>
-<area shape="rect" href="class_game_manager.html#afa897a422de407c89cf9b04abed6d91e" title="Will take the type of goal that is completed and pass it to the quest manager.This will increment 1 o..." alt="" coords="5,5,200,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="ad3e717f4fb0f378b969f4457de81f23e" name="ad3e717f4fb0f378b969f4457de81f23e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e717f4fb0f378b969f4457de81f23e">&#9670;&nbsp;</a></span>Instance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_game_manager.html">GameManager</a> GameManager.Instance</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_game_manager_8cs_source.html#l00026">26</a> of file <a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/BoehmZachary/Documents/GraveRobberAtLargeRepo/Assets/Scripts/Managers/<a class="el" href="_game_manager_8cs_source.html">GameManager.cs</a></li>
+<li>Managers/GameManager.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

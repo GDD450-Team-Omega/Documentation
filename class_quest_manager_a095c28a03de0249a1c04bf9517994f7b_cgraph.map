@@ -1,4 +1,0 @@
-<map id="QuestManager.CompleteTask" name="QuestManager.CompleteTask">
-<area shape="rect" id="node1" title="Checks each quests in the Quest Journal to see if it is completed. It will determine what type of que..." alt="" coords="5,5,200,32"/>
-<area shape="rect" id="node2" href="$class_game_manager.html#abb1c222eefb6e7582983de8a59056098" title="Takes the new amount of money and applies it to the total Can be used for both getting and spending m..." alt="" coords="248,5,439,32"/>
-</map>

@@ -3,6 +3,15 @@ var hierarchy =
     [ "CoffinCageMinigameTest", "class_coffin_cage_minigame_test.html", null ],
     [ "DialogueTest", "class_dialogue_test.html", null ],
     [ "GraveInteractionTest", "class_grave_interaction_test.html", null ],
+    [ "IBeginDragHandler", null, [
+      [ "TripwireStartPoints", "class_tripwire_start_points.html", null ]
+    ] ],
+    [ "IDragHandler", null, [
+      [ "TripwireStartPoints", "class_tripwire_start_points.html", null ]
+    ] ],
+    [ "IEndDragHandler", null, [
+      [ "TripwireStartPoints", "class_tripwire_start_points.html", null ]
+    ] ],
     [ "ImageLoader", "class_image_loader.html", null ],
     [ "Line", "class_line.html", null ],
     [ "MonoBehaviour", null, [
@@ -21,6 +30,7 @@ var hierarchy =
       [ "GraveInteraction", "class_grave_interaction.html", null ],
       [ "Guard", "class_guard.html", null ],
       [ "MapGeneration", "class_map_generation.html", null ],
+      [ "MiniGameCameraConnector", "class_mini_game_camera_connector.html", null ],
       [ "PathTile", "class_path_tile.html", null ],
       [ "Player", "class_player.html", null ],
       [ "PlayerFlipManager", "class_player_flip_manager.html", null ],
@@ -33,7 +43,9 @@ var hierarchy =
       [ "TorpedoMinigame", "class_torpedo_minigame.html", null ],
       [ "Tree", "class_tree.html", null ],
       [ "TripWireMiniGame", "class_trip_wire_mini_game.html", null ],
-      [ "TripWireMiniGameTrigger", "class_trip_wire_mini_game_trigger.html", null ]
+      [ "TripWireMiniGameTrigger", "class_trip_wire_mini_game_trigger.html", null ],
+      [ "TripWireMinigameV2", "class_trip_wire_minigame_v2.html", null ],
+      [ "TripwireStartPoints", "class_tripwire_start_points.html", null ]
     ] ],
     [ "QuestManagerTest", "class_quest_manager_test.html", null ],
     [ "ScriptableObject", null, [

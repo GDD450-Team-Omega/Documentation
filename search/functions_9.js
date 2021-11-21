@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['onclicklinesettingtest_0',['OnCLickLineSettingTest',['../class_trip_wire_mini_game_test.html#a5fa5754e404a66db2e336fcab2bfa1ca',1,'TripWireMiniGameTest']]],
-  ['onenable_1',['OnEnable',['../class_dialogue.html#aaf113062befa09d643ebd9a5629ca7d5',1,'Dialogue']]]
+  ['newquest_0',['NewQuest',['../class_quest_manager.html#af4e99b4e2c7226a295904bd752701990',1,'QuestManager']]],
+  ['nextline_1',['NextLine',['../class_dialogue.html#a1cbd37eb32ebf5aeffeb7b5bd480e88c',1,'Dialogue']]]
 ];

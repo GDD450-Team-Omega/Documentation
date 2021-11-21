@@ -1,4 +1,0 @@
-<map id="GameManager.CreateQuest" name="GameManager.CreateQuest">
-<area shape="rect" id="node1" title="Will take the index of what quest will be added Then will be passed to the quest manager." alt="" coords="5,5,189,32"/>
-<area shape="rect" id="node2" href="$class_quest_manager.html#af4e99b4e2c7226a295904bd752701990" title="Takes information from a ScriptableObject Quests, updates the text in a NPC&#39;s quest window and then d..." alt="" coords="237,5,408,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="GameManager.UpdateMoney" name="GameManager.UpdateMoney">
-<area shape="rect" id="node1" title="Takes the new amount of money and applies it to the total Can be used for both getting and spending m..." alt="" coords="491,5,681,32"/>
-<area shape="rect" id="node2" href="$class_quest_manager.html#a095c28a03de0249a1c04bf9517994f7b" title="Checks each quests in the Quest Journal to see if it is completed. It will determine what type of que..." alt="" coords="248,5,443,32"/>
-<area shape="rect" id="node3" href="$class_game_manager.html#afa897a422de407c89cf9b04abed6d91e" title="Will take the type of goal that is completed and pass it to the quest manager.This will increment 1 o..." alt="" coords="5,5,200,32"/>
-</map>

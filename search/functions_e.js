@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['update_0',['Update',['../class_dialogue.html#a6b7a5144cbfe9e77136944b7f0677a05',1,'Dialogue']]],
-  ['updatemoney_1',['UpdateMoney',['../class_game_manager.html#abb1c222eefb6e7582983de8a59056098',1,'GameManager']]]
+  ['togglehidden_0',['ToggleHidden',['../class_game_manager.html#a8a9d36e17648bfcc9527c0279a21f04a',1,'GameManager']]],
+  ['trapdisarming_1',['TrapDisarming',['../class_torpedo_mini_game_tests.html#adb3c8b38a9b83b668e62e9e59cd82d5a',1,'TorpedoMiniGameTests']]]
 ];

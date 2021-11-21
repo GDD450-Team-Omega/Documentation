@@ -3,11 +3,11 @@ var annotated_dup =
     [ "Beacon", "class_beacon.html", null ],
     [ "BodyGeneration", "class_body_generation.html", null ],
     [ "Bush", "class_bush.html", null ],
-    [ "CoffinCageMiniGame", "class_coffin_cage_mini_game.html", null ],
+    [ "CoffinCageMiniGame", "class_coffin_cage_mini_game.html", "class_coffin_cage_mini_game" ],
     [ "CoffinCageMinigameTest", "class_coffin_cage_minigame_test.html", null ],
     [ "Dialogue", "class_dialogue.html", "class_dialogue" ],
     [ "DialogueTest", "class_dialogue_test.html", null ],
-    [ "DigSliderControl", "class_dig_slider_control.html", null ],
+    [ "DigSliderControl", "class_dig_slider_control.html", "class_dig_slider_control" ],
     [ "DistanceCamMove", "class_distance_cam_move.html", null ],
     [ "DontDestroyOnLoad", "class_dont_destroy_on_load.html", null ],
     [ "FenceTile", "class_fence_tile.html", null ],
@@ -19,7 +19,8 @@ var annotated_dup =
     [ "Guard", "class_guard.html", null ],
     [ "ImageLoader", "class_image_loader.html", null ],
     [ "Line", "class_line.html", "class_line" ],
-    [ "MapGeneration", "class_map_generation.html", null ],
+    [ "MapGeneration", "class_map_generation.html", "class_map_generation" ],
+    [ "MiniGameCameraConnector", "class_mini_game_camera_connector.html", null ],
     [ "PathTile", "class_path_tile.html", null ],
     [ "Player", "class_player.html", null ],
     [ "PlayerFlipManager", "class_player_flip_manager.html", null ],
@@ -39,5 +40,7 @@ var annotated_dup =
     [ "Tree", "class_tree.html", null ],
     [ "TripWireMiniGame", "class_trip_wire_mini_game.html", "class_trip_wire_mini_game" ],
     [ "TripWireMiniGameTest", "class_trip_wire_mini_game_test.html", "class_trip_wire_mini_game_test" ],
-    [ "TripWireMiniGameTrigger", "class_trip_wire_mini_game_trigger.html", null ]
+    [ "TripWireMiniGameTrigger", "class_trip_wire_mini_game_trigger.html", null ],
+    [ "TripWireMinigameV2", "class_trip_wire_minigame_v2.html", "class_trip_wire_minigame_v2" ],
+    [ "TripwireStartPoints", "class_tripwire_start_points.html", "class_tripwire_start_points" ]
 ];
