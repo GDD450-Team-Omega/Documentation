@@ -1,0 +1,8 @@
+<map id="TripwireStartPointsDepricated" name="TripwireStartPointsDepricated">
+<area shape="rect" id="node1" title="handles the dragging of the lines in the tripwire minigame" alt="" coords="188,171,381,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node6" href="$class_trip_wire_mini_game.html" title="Controls the trip wire minigame, V2" alt="" coords="83,81,212,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="237,81,333,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="357,81,487,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="511,81,629,108"/>
+</map>

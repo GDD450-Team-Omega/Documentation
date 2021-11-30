@@ -1,0 +1,5 @@
+<map id="GraveInfo" name="GraveInfo">
+<area shape="rect" id="node1" title="Grave info is all about generating the needed for the game play to work map generation populates a pr..." alt="" coords="29,171,103,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node3" href="$class_body_generation.html" title="body generation takes inputs from grave info then generates the information for the grave...." alt="" coords="82,81,197,108"/>
+</map>

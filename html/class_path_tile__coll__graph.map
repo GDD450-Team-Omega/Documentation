@@ -1,0 +1,4 @@
+<map id="PathTile" name="PathTile">
+<area shape="rect" id="node1" title="Automatically changes the textures on the path tile depending on its connections to other path tiles." alt="" coords="26,80,95,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+</map>

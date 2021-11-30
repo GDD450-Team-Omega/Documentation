@@ -1,0 +1,4 @@
+<map id="TripWireMiniGameTriggerDepricated" name="TripWireMiniGameTriggerDepricated">
+<area shape="rect" id="node1" title="detects when the line intsects with the mouse collider and resets the line position" alt="" coords="5,80,236,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="65,5,176,32"/>
+</map>
